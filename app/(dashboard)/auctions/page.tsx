@@ -1,4 +1,5 @@
 'use client'
+export const dynamic = 'force-dynamic'
 
 const AUCTION_SOURCES = [
   { name:'eBay Golf Cart Auctions',  emoji:'🏷️', url:'https://www.ebay.com/b/Golf-Carts/47254/bn_2312462?LH_Auction=1',      desc:'Live and ending-soon golf cart auctions', tip:'Filter by "Auction" to find ending soon deals' },
