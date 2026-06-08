@@ -18,7 +18,6 @@ const FEATURES = [
   { icon:'🔧', title:'AI Cart Mechanic',        desc:'Expert ASE-level golf cart tech available 24/7 — gas and electric',          href:'/mechanic',     color:'#2DC653' },
   { icon:'🏌️', title:'Digital Garage',          desc:'Build docs, mods, photos, costs, and maintenance logs for your fleet',       href:'/garage',       color:'#E63946' },
   { icon:'📍', title:'Events & Meets',          desc:'GPS-powered golf cart meet and show discovery near you',                      href:'/events',       color:'#3399FF' },
-  { icon:'🏁', title:'Auction Intelligence',    desc:'Every golf cart auction source with cost and bidding calculators',            href:'/auctions',     color:'#FFB700' },
   { icon:'🏪', title:'Vendor Marketplace',      desc:'Performance shops, dealers, and custom builders in your area',                href:'/vendors',      color:'#2DC653' },
   { icon:'💬', title:'Forums Directory',        desc:'Every golf cart forum community — Club Car, EZGO, Yamaha, and more',          href:'/forums',       color:'#3399FF' },
   { icon:'👕', title:'Merch Store',             desc:'Exclusive RedLineConnect-1 drops and Rev Points loyalty rewards',            href:'/store',        color:'#E63946' },

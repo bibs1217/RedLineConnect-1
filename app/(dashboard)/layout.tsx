@@ -10,7 +10,6 @@ const NAV = [
   { href:'/parts',       icon:'🔩', label:'Parts',        color:'#E63946' },
   { href:'/mechanic',    icon:'🔧', label:'AI Mechanic',  color:'#2DC653' },
   { href:'/events',      icon:'📍', label:'Events',       color:'#3399FF' },
-  { href:'/auctions',    icon:'🏁', label:'Auctions',     color:'#FFB700' },
   { href:'/vendors',     icon:'🏪', label:'Vendors',      color:'#E63946' },
   { href:'/forums',      icon:'💬', label:'Forums',       color:'#3399FF' },
   { href:'/store',       icon:'👕', label:'Store',        color:'#FFB700' },
