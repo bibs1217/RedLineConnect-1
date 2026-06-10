@@ -8,16 +8,14 @@ import { createClient } from '@/lib/supabase/client'
 interface Message { role: 'user' | 'assistant'; content: string }
 
 const QUICK_PROMPTS = [
-  'How do I replace the batteries in my 48V cart?',
-  'Walk me through a 6 inch lift kit install',
-  'How do I install a speed chip on my EZGO?',
-  'My cart is slow — how do I troubleshoot the controller?',
-  'How do I convert my lead acid cart to lithium?',
-  'Walk me through replacing the solenoid',
-  'How do I program a Curtis controller?',
-  'How do I make my golf cart street legal (LSV)?',
-  'My cart won\'t charge — how do I troubleshoot?',
-  'How do I replace the rear leaf springs?',
+  'Find a lithium conversion kit for my 48V Club Car with prices',
+  'What are clean EZGO RXVs selling for right now',
+  'Find a custom build shop and parts for a 6 inch lift kit',
+  'Show me golf cart events near Peachtree City this weekend',
+  'Find batteries for a 36V EZGO TXT with prices',
+  'My cart is slow — diagnose the controller',
+  'Search live listings for a Yamaha Drive2 under $8k',
+  'Which vendors do street legal (LSV) conversions?',
 ]
 
 export default function MechanicPage() {
@@ -141,7 +139,10 @@ export default function MechanicPage() {
           {speaking && <button onClick={stopSpeaking} style={{ background:'rgba(230,57,70,0.1)', border:'1px solid rgba(230,57,70,0.25)', color:'#E63946', padding:'0.375rem 0.75rem', borderRadius:'9999px', fontSize:'0.8rem', cursor:'pointer' }}>⏹ Stop</button>}
         </div>
         <p style={{ color:'rgba(255,255,255,0.4)', fontSize:'0.8rem', marginTop:'0.2rem' }}>
-          30-year golf cart specialist · Club Car · EZGO · Yamaha · Gas & Electric · 24/7
+          AI-Powered · Master Cart Tech · Live Platform Search
+        </p>
+        <p style={{ color:'rgba(45,198,83,0.6)', fontSize:'0.72rem', marginTop:'0.15rem' }}>
+          Ask anything — I search the whole platform in real time
         </p>
       </div>
 
