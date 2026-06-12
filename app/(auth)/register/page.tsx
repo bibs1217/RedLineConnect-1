@@ -46,9 +46,9 @@ export default function RegisterPage() {
       <div style={{ width:'100%', maxWidth:'420px' }}>
         <div style={{ textAlign:'center', marginBottom:'2rem' }}>
           <Link href="/" style={{ fontSize:'2rem', fontWeight:900, display:'block', marginBottom:'0.5rem' }}>
-            <span style={{ color:'white' }}>RedLine</span>
+            <span style={{ color:'white' }}>VictoryRev</span>
             <span style={{ background:'linear-gradient(90deg,#E63946,#FFB700)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent', backgroundClip:'text' }}>Connect</span>
-            <span style={{ color:'#FFB700' }}>-1</span>
+            <span style={{ color:'#FFB700' }}>1 Golf</span>
             <span> 🏌️</span>
           </Link>
           <p style={{ color:'rgba(255,255,255,0.4)', fontSize:'0.9rem' }}>Create your free account</p>
@@ -72,7 +72,7 @@ export default function RegisterPage() {
             </div>
             {error && <div style={{ background:'rgba(230,57,70,0.1)', border:'1px solid rgba(230,57,70,0.3)', borderRadius:'0.5rem', padding:'0.75rem', fontSize:'0.875rem', color:'#E63946' }}>{error}</div>}
             <button type="submit" disabled={loading} style={{ background:'linear-gradient(135deg,#E63946,#C42B37)', color:'white', border:'none', padding:'0.875rem', borderRadius:'0.75rem', fontWeight:700, fontSize:'1rem', cursor: loading ? 'default':'pointer', opacity: loading ? 0.6:1 }}>
-              {loading ? 'Creating account…' : 'Join RedLineConnect-1'}
+              {loading ? 'Creating account…' : 'Join VictoryRevConnect1 Golf'}
             </button>
           </form>
         </div>
