@@ -29,9 +29,9 @@ export default function LoginPage() {
       <div style={{ width:'100%', maxWidth:'420px' }}>
         <div style={{ textAlign:'center', marginBottom:'2rem' }}>
           <Link href="/" style={{ fontSize:'2rem', fontWeight:900, display:'block', marginBottom:'0.5rem' }}>
-            <span style={{ color:'white' }}>RedLine</span>
+            <span style={{ color:'white' }}>VictoryRev</span>
             <span style={{ background:'linear-gradient(90deg,#E63946,#FFB700)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent', backgroundClip:'text' }}>Connect</span>
-            <span style={{ color:'#FFB700' }}>-1</span>
+            <span style={{ color:'#FFB700' }}>1 Golf</span>
             <span> 🏌️</span>
           </Link>
           <p style={{ color:'rgba(255,255,255,0.4)', fontSize:'0.9rem' }}>Sign in to your account</p>
@@ -55,7 +55,7 @@ export default function LoginPage() {
           </form>
         </div>
         <p style={{ textAlign:'center', color:'rgba(255,255,255,0.4)', marginTop:'1.5rem', fontSize:'0.875rem' }}>
-          No account? <Link href="/register" style={{ color:'#E63946', fontWeight:600 }}>Join RedLineConnect-1</Link>
+          No account? <Link href="/register" style={{ color:'#E63946', fontWeight:600 }}>Join VictoryRevConnect1 Golf</Link>
         </p>
       </div>
     </div>
