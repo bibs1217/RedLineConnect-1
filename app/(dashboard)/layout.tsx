@@ -32,9 +32,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <header style={{ background:'#06101E', borderBottom:'3px solid transparent', borderImage:'linear-gradient(90deg, #E63946 0%, #FFB700 50%, #2DC653 100%) 1', padding:'0 1.5rem', height:'4rem', display:'flex', alignItems:'center', justifyContent:'space-between', position:'sticky', top:0, zIndex:50, boxShadow:'0 4px 24px rgba(0,0,0,0.5)' }}>
 
         <Link href="/" style={{ fontSize:'1.2rem', fontWeight:900, display:'flex', alignItems:'center', gap:'0.3rem' }}>
-          <span style={{ color:'white' }}>RedLine</span>
+          <span style={{ color:'white' }}>VictoryRev</span>
           <span style={{ background:'linear-gradient(90deg,#E63946,#FFB700)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent', backgroundClip:'text' }}>Connect</span>
-          <span style={{ color:'#FFB700' }}>-1</span>
+          <span style={{ color:'#FFB700' }}>1 Golf</span>
           <span style={{ fontSize:'1.2rem' }}>🏌️</span>
         </Link>
 
@@ -69,7 +69,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div style={{ borderRadius:'0.75rem', overflow:'hidden', marginBottom:'1.25rem', height:'80px', position:'relative', background:'linear-gradient(135deg, rgba(230,57,70,0.2), #1A2940)' }}>
             <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=400&q=75" alt="Golf Cart" style={{ width:'100%', height:'100%', objectFit:'cover', opacity:0.65 }} />
             <div style={{ position:'absolute', inset:0, background:'linear-gradient(135deg, rgba(6,16,30,0.5), transparent)' }} />
-            <div style={{ position:'absolute', bottom:'0.5rem', left:'0.75rem', fontSize:'0.6rem', color:'rgba(255,183,0,0.9)', fontWeight:800, letterSpacing:'2px', textTransform:'uppercase' }}>RedLineConnect-1</div>
+            <div style={{ position:'absolute', bottom:'0.5rem', left:'0.75rem', fontSize:'0.6rem', color:'rgba(255,183,0,0.9)', fontWeight:800, letterSpacing:'2px', textTransform:'uppercase' }}>VictoryRevConnect1 Golf</div>
           </div>
 
           <nav style={{ display:'flex', flexDirection:'column', gap:'0.15rem', flex:1 }}>
