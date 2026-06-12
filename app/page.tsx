@@ -20,7 +20,7 @@ const FEATURES = [
   { icon:'📍', title:'Events & Meets',          desc:'GPS-powered golf cart meet and show discovery near you',                      href:'/events',       color:'#3399FF' },
   { icon:'🏪', title:'Vendor Marketplace',      desc:'Performance shops, dealers, and custom builders in your area',                href:'/vendors',      color:'#2DC653' },
   { icon:'💬', title:'Forums Directory',        desc:'Every golf cart forum community — Club Car, EZGO, Yamaha, and more',          href:'/forums',       color:'#3399FF' },
-  { icon:'👕', title:'Merch Store',             desc:'Exclusive RedLineConnect-1 drops and Rev Points loyalty rewards',            href:'/store',        color:'#E63946' },
+  { icon:'👕', title:'Merch Store',             desc:'Exclusive VictoryRevConnect1 Golf drops and Rev Points loyalty rewards',            href:'/store',        color:'#E63946' },
   { icon:'⚡', title:'AI-Powered',              desc:'Every feature has its own dedicated AI agent trained on golf cart knowledge', href:'/mechanic',     color:'#FFB700' },
 ]
 
@@ -38,9 +38,9 @@ export default function HomePage() {
       {/* ── TOP NAV ── */}
       <header style={{ background:'rgba(10,22,40,0.95)', borderBottom:'2px solid transparent', borderImage:'linear-gradient(90deg,#E63946 0%,#FFB700 50%,#2DC653 100%) 1', padding:'0 2rem', height:'4rem', display:'flex', alignItems:'center', justifyContent:'space-between', position:'sticky', top:0, zIndex:50, backdropFilter:'blur(12px)' }}>
         <div style={{ fontSize:'1.35rem', fontWeight:900, display:'flex', alignItems:'center', gap:'0.3rem' }}>
-          <span style={{ color:'white' }}>RedLine</span>
+          <span style={{ color:'white' }}>VictoryRev</span>
           <span className="redline-text">Connect</span>
-          <span style={{ color:'#FFB700', textShadow:'0 0 10px rgba(255,183,0,0.5)' }}>-1</span>
+          <span style={{ color:'#FFB700', textShadow:'0 0 10px rgba(255,183,0,0.5)' }}>1 Golf</span>
           <span style={{ marginLeft:'0.3rem', fontSize:'1.5rem' }}>🏌️</span>
         </div>
         <div style={{ display:'flex', gap:'0.75rem', alignItems:'center' }}>
@@ -103,7 +103,7 @@ export default function HomePage() {
       <section style={{ padding:'3rem 2rem', maxWidth:'1200px', margin:'0 auto' }}>
         <div style={{ textAlign:'center', marginBottom:'2rem' }}>
           <h2 style={{ fontSize:'2rem', fontWeight:900, marginBottom:'0.5rem' }}>🏆 Featured Custom Builds</h2>
-          <p style={{ color:'rgba(255,255,255,0.4)', fontSize:'0.95rem' }}>Iconic builds from the RedLineConnect-1 community garage</p>
+          <p style={{ color:'rgba(255,255,255,0.4)', fontSize:'0.95rem' }}>Iconic builds from the VictoryRevConnect1 Golf community garage</p>
         </div>
 
         <div style={{ display:'grid', gridTemplateColumns:'repeat(6, 1fr)', gap:'1rem' }}>
@@ -148,7 +148,7 @@ export default function HomePage() {
       {/* ── FOOTER ── */}
       <footer style={{ background:'#06101E', borderTop:'1px solid rgba(255,255,255,0.05)', padding:'2rem', textAlign:'center' }}>
         <div style={{ fontSize:'1.1rem', fontWeight:900, marginBottom:'0.5rem' }}>
-          <span style={{ color:'white' }}>RedLine</span><span className="redline-text">Connect</span><span style={{ color:'#FFB700' }}>-1</span>
+          <span style={{ color:'white' }}>VictoryRev</span><span className="redline-text">Connect</span><span style={{ color:'#FFB700' }}>1 Golf</span>
         </div>
         <p style={{ color:'rgba(255,255,255,0.3)', fontSize:'0.8rem' }}>
           The ultimate golf cart enthusiast platform · Club Car · EZGO · Yamaha · Custom LSV
