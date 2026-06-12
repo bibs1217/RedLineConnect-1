@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { AuthProvider } from './providers/auth-provider'
 
 export const metadata: Metadata = {
-  title: { default: 'RedLineConnect-1', template: '%s | RedLineConnect-1' },
+  title: { default: 'VictoryRevConnect1 Golf', template: '%s | VictoryRevConnect1 Golf' },
   description: 'The ultimate platform for golf cart enthusiasts. Custom builds, community, commerce, and AI-powered tools.',
 }
 
