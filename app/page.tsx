@@ -35,6 +35,11 @@ export default function HomePage() {
   return (
     <div style={{ minHeight:'100vh', background:'#0A1628', color:'white', fontFamily:'system-ui,sans-serif' }}>
 
+      {/* DEMO banner */}
+      <div style={{ background:'#FFD700', color:'#0A1628', textAlign:'center', padding:'0.45rem 1rem', fontWeight:800, fontSize:'0.9rem', letterSpacing:'0.02em' }}>
+        🎬 You are viewing the VictoryRevConnect1 Golf DEMO — explore every feature with sample data
+      </div>
+
       {/* ── TOP NAV ── */}
       <header style={{ background:'rgba(10,22,40,0.95)', borderBottom:'2px solid transparent', borderImage:'linear-gradient(90deg,#E63946 0%,#FFB700 50%,#2DC653 100%) 1', padding:'0 2rem', height:'4rem', display:'flex', alignItems:'center', justifyContent:'space-between', position:'sticky', top:0, zIndex:50, backdropFilter:'blur(12px)' }}>
         <div style={{ fontSize:'1.35rem', fontWeight:900, display:'flex', alignItems:'center', gap:'0.3rem' }}>
