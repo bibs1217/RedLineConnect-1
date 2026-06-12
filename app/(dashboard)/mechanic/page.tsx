@@ -166,7 +166,7 @@ export default function MechanicPage() {
             <div style={{ display:'flex', gap:'0.75rem', marginBottom:'1.5rem' }}>
               <div style={{ width:'36px', height:'36px', background:'rgba(45,198,83,0.15)', border:'1px solid rgba(45,198,83,0.2)', borderRadius:'0.75rem', display:'flex', alignItems:'center', justifyContent:'center', fontSize:'1.25rem', flexShrink:0 }}>🔧</div>
               <div style={{ background:'#1A2940', border:'1px solid rgba(255,255,255,0.08)', borderRadius:'0.75rem', borderTopLeftRadius:'0.25rem', padding:'1rem', maxWidth:'80%' }}>
-                <p style={{ fontWeight:600, marginBottom:'0.5rem', color:'#2DC653' }}>RedLineConnect-1 AI Mechanic</p>
+                <p style={{ fontWeight:600, marginBottom:'0.5rem', color:'#2DC653' }}>VictoryRevConnect1 Golf AI Mechanic</p>
                 <p style={{ color:'#ccc', lineHeight:1.6, marginBottom:'0.5rem' }}>
                   {cartContext
                     ? `Hey! I see you're working on your ${cartContext}. What do you need help with?`
